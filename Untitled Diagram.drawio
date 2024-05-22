@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T12:09:51.327Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.6" etag="2W7kiVuinFdMH8drIXCH" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T12:25:35.995Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="HvbCokuFBXN7uFqdbKFP" version="24.4.6" type="github">
   <diagram name="Page-1" id="4yDAOpJOvNTM4EUQDiRd">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
-        <mxCell id="0" />
+        <object label="" id="0">
+          <mxCell />
+        </object>
         <mxCell id="1" parent="0" />
+        <mxCell id="OuBtqBbemlQRufexGhTb-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OuBtqBbemlQRufexGhTb-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <object label="" User="" id="OuBtqBbemlQRufexGhTb-3">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="40" y="220" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="OuBtqBbemlQRufexGhTb-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <object label="Text" User="- UserID (PK)&#xa;- Username&#xa;- Email&#xa;- Password&#xa;- DateJoined" id="OuBtqBbemlQRufexGhTb-6">
+          <mxCell style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="70" y="230" width="60" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Text" BlogPost="PostID (PK)&#xa;- Title&#xa;- Content&#xa;- DateCreated&#xa;- AuthorID (FK)" id="OuBtqBbemlQRufexGhTb-7">
+          <mxCell style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="260" y="235" width="60" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Text" Comment="CommentID (PK)&#xa;- Content&#xa;- DateCreated&#xa;- PostID (FK)&#xa;- UserID (FK)" id="OuBtqBbemlQRufexGhTb-8">
+          <mxCell style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="455" y="235" width="60" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Text" Like="LikeID (PK)&#xa;- PostID (FK)&#xa;- UserID (FK)" id="OuBtqBbemlQRufexGhTb-9">
+          <mxCell style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="650" y="235" width="60" height="30" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
